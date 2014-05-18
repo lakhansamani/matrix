@@ -58,3 +58,10 @@ function traverseSouthWest(m,n,l){
   console.log(result);
   return result;
 }
+
+function traverseSouthEast(m,n,l){
+  var items=[[1,2,3],[4,5,6],[7,8,9]];
+  var result=(items[m+l][n+l]);
+  console.log(result);
+  return result;
+}
